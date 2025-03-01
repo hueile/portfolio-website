@@ -129,7 +129,7 @@ export function Board() {
   return (
     <primitive
       object={scene}
-      position={[-2, 1.5, -5.95]} 
+      position={[0, 1.5, -5.95]} 
       rotation={[0, - Math.PI / 2, 0]} 
       castShadow
       receiveShadow
