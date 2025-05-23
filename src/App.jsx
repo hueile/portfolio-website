@@ -5,7 +5,7 @@ import * as THREE from 'three';
 
 export default function App() {
   return (
-    <Canvas camera={{ position: [0, 5, 0], fov: 50}}>
+    <Canvas camera={{ position: [0, 10, 0], fov: 60}}>
       <ambientLight intensity={1} />
       <directionalLight position={[0, 0, 6.0]} />
       <Room />
